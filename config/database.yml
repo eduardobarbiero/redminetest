@@ -1,0 +1,24 @@
+production:
+  adapter: postgresql
+  database: d834sru1g0var4
+  host: ec2-54-83-194-117.compute-1.amazonaws.com
+  username: borwfdwoppsuzc
+  password: "gfyS2r3A1zksjciuxXsg3Q07Ja"
+  port: 5432
+  encoding: utf8
+
+development:
+  adapter: postgresql
+  database: redmine_development
+  host: localhost
+  username: root
+  password: ""
+  encoding: utf8
+
+test:
+  adapter: postgresql
+  database: redmine_test
+  host: localhost
+  username: root
+  password: ""
+  encoding: utf8
